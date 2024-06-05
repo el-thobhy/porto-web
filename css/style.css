@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* logo */
+.logo-nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 2rem;
+    width: 2rem;
+}
+
+.logo-nav h1 {
+    margin-left: 16px;
+}
+
+/* header */
+header.nav-container {
+    width: 100%;
+    height: 90px;
+    margin-inline: auto;
+    display: flex;
+    background-color: #ffffff;
+    position: fixed;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 9999;
+}
+
+header.nav-container .nav-list ul {
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem 1rem;
+}
+
+header.nav-container .nav-list li {
+    list-style-type: none;
+}
+
+header.nav-container .nav-list li a {
+    padding: 0.5rem 1.5rem;
+    border-radius: 999px;
+    text-decoration: none;
+    font-size: 1.05rem;
+    font-weight: 500;
+    color: black;
+    transition: all 0.2s ease-in-out;
+}
+
+header.nav-container .nav-list li:hover a {
+    background-color: #425c77;
+    color: white;
+}
+
+/* Auth part */
+.btn-contact {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 6px;
+    color: #056eaa;
+    border: 0;
+    margin-right: 12px;
+    font-family: 'Poppins';
+    font-size: 1.05rem;
+}
+
+.btn-contact:hover {
+    background-color: #cadbca;
+}
+
+.btn-linkedin {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #ffffff;
+    border-radius: 6px;
+    border: 0;
+    background-color: #056eaa;
+    font-family: 'Poppins';
+    font-size: 1.05rem;
+}
+
+.btn-linkedin:hover {
+    background-color: #82d185;
+}
+
+.space {
+    height: 80px;
+}
+
+/* Body */
+main .content {
+    display: flex;
+    width: 790px;
+    height: 320px;
+}
+
+.content-desc {
+    padding-inline-start: 16px;
+}
+
+.image-me {
+    margin: 20px;
+    margin-left: 40pt;
+    padding: 12px;
+}
+
+.title {
+    font-size: 64px;
+    width: 700;
+    font-weight: bold;
+}
+
+
+.desc {
+    font-size: 24px;
+    text-align: justify;
+}
+
+.btn-start {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #ffffff;
+    border-radius: 6px;
+    border: 0;
+    background-color: #3936d4;
+    font-family: 'Poppins';
+    font-size: 1.05rem;
+}
+
+.btn-start:hover {
+    background-color: #829ed1;
+}
